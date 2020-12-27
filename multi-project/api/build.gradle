@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'com.shitikov.task13'
+version 'unspecified'
+
+compileJava {
+    sourceCompatibility = '1.8'
+    targetCompatibility = '1.8'
+}
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    implementation project(':core')
+}
